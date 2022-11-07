@@ -5,13 +5,7 @@ import mongoose from "mongoose";
 const usernoSchema = new mongoose.Schema({
     QA_NUMBER:{type:Number,trim:true},
     PROD_NUMBER:{type:Number,trim:true},
-    QCI_NUMBER:{type:Number,trim:true},
-   
-
-    
-
-
-
+    QCI_NUMBER:{type:Number,trim:true}
 });
 
 // Model

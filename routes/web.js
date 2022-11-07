@@ -19,8 +19,8 @@ router.get('/get',ProdGetController.getAllDoc);
 router.get('/get/:id',ProdIdController.getAllDoc);
 router.put('/get/:id',UpdateJobController.getAllDoc);
 router.get('/joblink/:id',IdController.getAllDoc);
-router.post('userno',UserNoController.createDoc);
-router.get('userno',UserNoGetController.getAllDoc);
+router.post('/userno',UserNoController.createDoc);
+router.get('/userno',UserNoGetController.getAllDoc);
 
 
 

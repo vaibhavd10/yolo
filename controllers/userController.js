@@ -4,9 +4,9 @@ class UserNoController {
         try {
             const{QA_NUMBER,PROD_NUMBER,QCI_NUMBER}= req.body
             const doc = new UserNoModel({
-                QA_NUMBER:7389384687,
-                PROD_NUMBER:7389384687,
-                QCI_NUMBER:7389384687,
+                QA_NUMBER:QA_NUMBER,
+                PROD_NUMBER:PROD_NUMBER,
+                QCI_NUMBER:QCI_NUMBER,
             
             })
             const result = await doc.save()

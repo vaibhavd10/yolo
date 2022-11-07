@@ -7,6 +7,8 @@ import ProdIdController from '../controllers/prodidController.js';
 import UpdateJobController from '../controllers/updateJobController.js';
 import ProdModel from '../models/prod.js';
 import IdController from '../controllers/idController.js';
+import UserNoController from '../controllers/userController.js';
+import UserNoGetController from '../controllers/usernogetController.js';
 
 const router = express.Router();
 
@@ -17,6 +19,8 @@ router.get('/get',ProdGetController.getAllDoc);
 router.get('/get/:id',ProdIdController.getAllDoc);
 router.put('/get/:id',UpdateJobController.getAllDoc);
 router.get('/joblink/:id',IdController.getAllDoc);
+router.post('userno',UserNoController.createDoc);
+router.get('userno',UserNoGetController.getAllDoc);
 
 
 

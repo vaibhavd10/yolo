@@ -18,9 +18,6 @@ const prodSchema = new mongoose.Schema({
     WHEEL_DISK_2:{type:String,trim:true},
     REF_WHEEL:{type:String,trim:true},
     REWORK_ASSIGNED:{type:Boolean,default:false},
-    QA_NUMBER:{type:Number,trim:true},
-    PROD_NUMBER:{type:Number,trim:true},
-    QCI_NUMBER:{type:Number,trim:true},
 
 
     AC2_LINK: [{

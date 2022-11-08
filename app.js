@@ -3,10 +3,10 @@ import connectDB from "./db/connectdb.js";
 import web from "./routes/web.js";
 const app = express()
 const port = process.env.PORT || '8000'
-const DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://vaibhav:1234@cluster0.f65j0.mongodb.net/test"
+const DATABASE_URL = process.env.DATABASE_URL ||  "mongodb://localhost:27017"
 //  "mongodb+srv://vaibhav:1234@cluster0.f65j0.mongodb.net/test";
 // "mongodb://localhost:27017"
-
+// 
 
 // Database Connection
 connectDB(DATABASE_URL);

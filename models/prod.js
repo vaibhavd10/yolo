@@ -17,7 +17,17 @@ const prodSchema = new mongoose.Schema({
     WHEEL_DISK_1:{type:String,trim:true},
     WHEEL_DISK_2:{type:String,trim:true},
     REF_WHEEL:{type:String,trim:true},
-    REWORK_ASSIGNED:{type:Boolean,default:false},
+    REWORK_ASSIGNED_A:{type:Boolean,default:false},
+    REWORK_ASSIGNED_B:{type:Boolean,default:false},
+    REWORK_ASSIGNED_C:{type:Boolean,default:false},
+    REWORK_ASSIGNED_D:{type:Boolean,default:false},
+    REWORK_ASSIGNED_E:{type:Boolean,default:false},
+    COUNTER_A:{type:Number,trim:true},
+    COUNTER_B:{type:Number,trim:true},
+    COUNTER_C:{type:Number,trim:true},
+    COUNTER_D:{type:Number,trim:true},
+    COUNTER_E:{type:Number,trim:true},
+
 
 
     AC2_LINK: [{
